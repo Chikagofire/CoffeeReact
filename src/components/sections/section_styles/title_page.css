@@ -1,0 +1,28 @@
+.cut {
+    /* margin-top: 10px; */
+    background-size: cover;
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .cut span {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-family: subtitle;
+    margin-left: 150px;
+  }
+  
+  .cut .coffee_cut_img_down {
+    position: absolute;
+    top: 0px;
+    transform: rotate(180deg);
+  }
+  
+  .cut .coffee_cut_img_up {
+    position: absolute;
+    bottom: 0px;
+  }

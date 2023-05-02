@@ -1,0 +1,23 @@
+@font-face {
+  font-family: CoffeeMarket;
+  src: url("../source/font/hello-honey-personal-use2.otf");
+}
+
+@font-face {
+  font-family: description;
+  src: url("../source/font/unineuelight.ttf");
+}
+
+@font-face {
+  font-family: subtitle;
+  src: url("../source/font/Intro.otf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  height: 100vh;
+}

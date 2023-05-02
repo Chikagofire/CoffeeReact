@@ -1,0 +1,66 @@
+.title_wrap {
+  background-image: url("/src/source/img/back.jpg");
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.title_coffee_market {
+  color: rgb(255, 255, 255);
+  font-size: 200px;
+  font-family: CoffeeMarket;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.subtitle {
+  color: #f88e04;
+  font-family: subtitle;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-family: subtitle;
+  background-color: #f88e04;
+  font-size: 17px;
+}
+
+.bottom-menu {
+  visibility: hidden;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+}
+
+button a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.first_letter {
+  display: flex;
+}
+
+.title_wrap img:last-child {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.title_wrap img:first-child {
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+}

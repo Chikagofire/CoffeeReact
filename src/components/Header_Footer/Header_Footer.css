@@ -1,0 +1,88 @@
+.menu {
+    padding-top: 15px;
+    z-index: 99;
+    width: 100vw;
+    height: 8vh;
+  }
+
+.logo{
+  overflow: hidden;
+  height: 70px;
+  margin: 0 !important;
+  transform: none !important;
+}
+
+  .logo img{
+    width: 180px;
+  }
+  .menu > ul {
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    font-family: subtitle;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  ul ul {
+    display: flex;
+    list-style: none;
+    font-family: subtitle;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  li:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  li,i{
+    transition: 0.3s;
+  }
+  
+  li:hover,
+  a:hover {
+    color: #f88e04;
+  transform: scale(1.2);
+  }
+  /* i:not(:last-child) */
+  i:hover {
+    transform: scale(1.1);
+    color: #f88e04;
+  }
+
+  footer {
+    /* background-image: url("/img/coffee-concept-with-differents-types-of-coffee-coffee-beans-milk-and-cinnamon-sticks-on-grey-background-flat-lay1 (1).jpg"); */
+    background-size: cover;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  footer .img1 {
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    top: -1px;
+  }
+  
+  footer .copyright {
+    margin-top: 10px;
+    font-family: description;
+    font-size: 28px;
+    text-transform: lowercase;
+    color: white;
+  }
+  
+  .coffe_cut:first-child{
+    position: absolute;
+  }
